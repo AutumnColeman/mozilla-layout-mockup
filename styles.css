@@ -13,6 +13,10 @@
   background-color: #D93A33;
 }
 
+body {
+  margin: 0;
+}
+
 .navitems{
   display: block;
   float: right;
@@ -32,7 +36,7 @@
 .navitems li a {
   text-decoration: none;
   color: white;
-  padding: 12px 15px;
+  padding: 20px 15px;
 }
 
 .nav img {
@@ -52,10 +56,7 @@
   background-size: cover;
   font-family: 'Architects Daughter', cursive;
   color: #4F83B9;
-
-}
-
-.banner_back{
+  padding: 50px;
 
 }
 
@@ -75,10 +76,6 @@
 /*2 columns */
 .colls {
   font-family: 'Fira Sans', sans-serif;
-}
-
-.coll1 {
-
 }
 
 .coll1-icons {
@@ -174,7 +171,6 @@
   background-size: cover;
   font-family: 'Fira Sans', sans-serif;
   color: white;
-
 }
 
 .firefox-logo {
